@@ -5,11 +5,9 @@ import CssBaseline from '@mui/material/CssBaseline';
 import theme from './theme';
 import Layout from './components/Layout/Layout';
 import Home from './pages/Home/Home';
-
-// Placeholder components - we'll create these next
-const Courses = () => <div>Courses Page</div>;
-const Login = () => <div>Login Page</div>;
-const Register = () => <div>Register Page</div>;
+import Courses from './pages/Courses/Courses';
+import Login from './pages/Login/Login';
+import Register from './pages/Register/Register';
 
 function App() {
   return (
